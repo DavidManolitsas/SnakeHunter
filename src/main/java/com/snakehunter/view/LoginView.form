@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.snakehunter.view.LoginView">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="12" y="20" width="690" height="240"/>
+    </constraints>
+    <properties>
+      <maximumSize width="-1" height="-1"/>
+      <minimumSize width="-1" height="-1"/>
+      <preferredSize width="500" height="220"/>
+    </properties>
+    <border type="none" title="Snake Hunting" title-justification="2" title-position="3">
+      <font name="Courgette" size="28" style="1"/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <component id="41a0c" class="javax.swing.JLabel" binding="usernameLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <labelFor value=""/>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <component id="3cc78" class="javax.swing.JLabel" binding="passwordLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <labelFor value=""/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="c80f7" class="javax.swing.JTextField" binding="usernameTxtF">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="1"/>
+          <focusCycleRoot value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <font size="14"/>
+        </properties>
+      </component>
+      <component id="a1f86" class="javax.swing.JLabel" binding="loginMessages">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <text value=""/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="b894d" class="javax.swing.JPasswordField" binding="passwordTxtF">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="1"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <font size="14"/>
+        </properties>
+      </component>
+      <grid id="9bccd" binding="buttonPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="225" height="15"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ab0ec" class="javax.swing.JButton" binding="newAccountButton" default-binding="true">
+            <constraints border-constraint="East"/>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="125" height="15"/>
+              <text value="New Account"/>
+            </properties>
+          </component>
+          <component id="3a529" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+            <constraints border-constraint="West"/>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="75" height="15"/>
+              <text value="Login"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="d85a7" class="javax.swing.JLabel" binding="humanPlayerLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Human Player: Waiting"/>
+        </properties>
+      </component>
+      <component id="400a3" class="javax.swing.JLabel" binding="snakePlayerLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Snake Player: Waiting"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
